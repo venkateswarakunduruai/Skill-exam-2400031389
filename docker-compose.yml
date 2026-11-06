@@ -23,7 +23,7 @@ services:
       - microservices-network
 
   exam-service:
-    image: your_docker_username/university:latest
+    image: kl2400031389/university:latest
     build:
       context: .
       dockerfile: Dockerfile
